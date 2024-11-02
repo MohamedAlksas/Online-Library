@@ -18,19 +18,36 @@ Welcome to the Bookstore Web Application! This project was developed as part of 
 Include some sample screenshots here:
 
 - **Home Page** – Displaying available books.
+![Home Page](/Images/view%20availabe%20books.jpg)
 - **Author Dashboard** – Showing book management options.
-- **User Profile** – With order history and options to edit/cancel orders.
+![Author Dashboard](/Images/view%20author%20profile.jpg)
 - **Search Authors** – Find authors by their name.
+![Home](/Images/search%20by%20author%20name.jpg)
 
 ## Installation and Setup
 
 ### Prerequisites
 - **Visual Studio** (preferably 2022 or later)
 - **.NET Core SDK** (version 6.0 or higher)
-- **SQL Server** (for database setup)
+- **Microsoft SQL Server** (for database setup)
 
 ### Steps to Run the Project
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/hafez599/ITI_BookStore
    cd BookstoreApp
+
+2. **Database Configuration**
+    - Open appsettings.json.
+    - Update the connection string to match your SQL Server configuration Like in the image below.
+    ![Datebase](/Images/database.jpg)
+
+    3. **Database Migration**
+    - Open the Package Manager Console in Visual Studio.
+    - Run the following command to apply migrations:
+    ```bash
+    add-migration migrationName
+    Update-Database
+
+3. **Run the Application**
+    - Press F5 or run the project through Visual Studio to launch it.
