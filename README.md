@@ -1,6 +1,6 @@
-# ITI Internship Bookstore Project
+# Internship Bookstore Project
 
-Welcome to the Bookstore Web Application! This project was developed as part of my ITI internship, using **ASP.NET MVC** and **Entity Framework**. This app allows users to sign up as either **Authors** or **Users** and provides distinct functionalities for each role.
+Welcome to the Bookstore Web Application! This project was developed using **ASP.NET MVC** and **Entity Framework**. This app allows users to sign up as either **Authors** or **Users** and provides distinct functionalities for each role.
 
 ## Project Features
 
